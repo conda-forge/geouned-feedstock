@@ -40,7 +40,8 @@ test:
   commands:
     - pip check
     - geouned_cadtocsg --help
-    - pytest tests/test_convert.py
+    - pytest tests/test_csgtocad.py
+    - pytest tests/test_cadtocsg.py
 
 about:
   home: https://github.com/GEOUNED-org/GEOUNED
