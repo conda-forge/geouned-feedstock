@@ -1,13 +1,13 @@
 {% set name = "geouned" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2756365293f75d368661a69f0fa60cfa96965e7d4c5f57a3e6a8ca20b04cacb9
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: c38ea2ac1dd2514cda681236036621ec636f5f5f5dd934a6309d62c2f80ff749
 
 build:
   entry_points:
