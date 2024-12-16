@@ -149,4 +149,5 @@ Feedstock Maintainers
 
 * [@akolsek](https://github.com/akolsek/)
 * [@shimwell](https://github.com/shimwell/)
+* [@AlvaroCubi](https://github.com/AlvaroCubi/)
 
