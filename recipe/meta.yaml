@@ -1,5 +1,5 @@
 {% set name = "geouned" %}
-{% set version = "1.5.1" %}
+{% set version = "1.5.2" %}
 {% set python_min = "3.8" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 33906c244396145a49c8ec67ff757060623d6b8186984f35991b537770ffd701
+  sha256: ad0fb3d753e161a00d86c27f0506a18f8b95bd0e0f73ddd929ecac0efd961e08
 
 build:
   entry_points:
