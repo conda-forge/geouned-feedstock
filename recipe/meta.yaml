@@ -1,5 +1,5 @@
 {% set name = "geouned" %}
-{% set version = "1.5.3" %}
+{% set version = "1.6.0" %}
 {% set python_min = "3.8" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 16f6a4f881dc6c7afa06b9a579a0a9d73b0ed398be2d1ed6d8ec9693e37f8c2a
+  sha256: ef82dc326c691b2364810c984c4906a280f31a3f08b9f522da4a1e9392d0f15c
 
 build:
   entry_points:
@@ -33,6 +33,7 @@ test:
   imports:
     - geouned
   requires:
+    - python {{ python_min }}
     - pip
     - pytest
   source_files:
