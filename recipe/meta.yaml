@@ -33,6 +33,7 @@ test:
   imports:
     - geouned
   requires:
+    - python {{ python_min }}
     - pip
     - pytest
   source_files:
